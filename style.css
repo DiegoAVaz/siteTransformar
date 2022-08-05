@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&family=WindSong&display=swap');
+
+
+.logo-nav-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(179,255,249);
+    background: linear-gradient(90deg, rgba(179,255,249,1) 0%, rgba(255,179,246,0.9920343137254902) 50%, rgba(179,255,249,1) 100%);
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #6C4343 1px;
+    border-radius: 30px; 
+    box-shadow: 0px 10px 10px gray;
+    margin-bottom: 20px;
+}
+
+.projeto{
+    font-family: 'WindSong', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #6C4343;
+}
+
+.transformar{
+    font-family: 'Waiting for the Sunrise', cursive;
+    text-align: center;
+    font-size: 100px;
+    height: 130px;
+    color: #6C4343;
+}
+
+.container ul{
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-around;
+    padding-left: 0px;  
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.container-section{
+    background-color: #c4c4c4;
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    grid-gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border: solid #6C4343 1px;
+}
+
+section{
+    display: flex;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    grid-gap: 20px;
+}
+
+.noticias{
+    width: 300px;
+}
+
+#divBusca{
+    background-color:white;
+    border:solid 1px;
+    border-radius:15px;
+    height: 32px;
+}
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+}
+
+
+.container-section-right{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 15px;
+    background: rgb(179,255,249);
+    background: linear-gradient(90deg,rgba(179,255,249,1) 100%);
+    margin-top: 40px;
+    padding-top: 40px ;
+    padding-bottom: 40px;
+    border: #6C4343 solid 1px;
+    border-radius: 30px;
+}   
+
+
+#nome-login{
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: xx-large;
+}
