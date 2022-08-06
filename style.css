@@ -2,12 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&family=WindSong&display=swap');
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .logo-nav-background{
     display: flex;
     flex-direction: column;
     justify-content: center;
     background: rgb(179,255,249);
-    background: linear-gradient(90deg, rgba(179,255,249,1) 0%, rgba(255,179,246,0.9920343137254902) 50%, rgba(179,255,249,1) 100%);
+    background: linear-gradient(to right, rgba(179,255,249,1), rgba(255,179,246,0.9920343137254902), #ffffff, rgba(255,179,246,0.9920343137254902), rgba(179,255,249,1) );
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -15,6 +20,17 @@
     border-radius: 30px; 
     box-shadow: 0px 10px 10px gray;
     margin-bottom: 20px;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: xx-large;
+}
+
+.logo-nav-background ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container a{
+    color: #6C4343;
 }
 
 .projeto{
@@ -30,6 +46,7 @@
     font-size: 100px;
     height: 130px;
     color: #6C4343;
+    margin-top: -20px;
 }
 
 .container ul{
@@ -71,8 +88,8 @@ section{
 #divBusca{
     background-color:white;
     border:solid 1px;
-    border-radius:15px;
-    height: 32px;
+    border-radius:10px;
+    height: 35px;
 }
   
 #txtBusca{
@@ -100,14 +117,59 @@ section{
     background: rgb(179,255,249);
     background: linear-gradient(90deg,rgba(179,255,249,1) 100%);
     margin-top: 40px;
-    padding-top: 40px ;
     padding-bottom: 40px;
     border: #6C4343 solid 1px;
     border-radius: 30px;
 }   
 
 
-#nome-login{
+.nome-login{
     font-family: 'Waiting for the Sunrise', cursive;
-    font-size: xx-large;
+    font-size: 60px;
+    padding-top: -50px;
+}
+
+.entrar input{
+    width: 210px;
+    height: 30px;
+    font-family: verdana;
+    background-color: rgba(255,179,246,0.9920343137254902);
+}
+
+.criar input{
+    width: 210px;
+    height: 30px;
+    font-family: verdana;
+    color: white;
+    background-color: #ff0000;
+}
+
+.face input{
+    width: 210px;
+    height: 30px;
+    font-family: verdana;
+    color: white;
+    background-color: #4267B2;
+}
+
+.login-email{
+    height: 32px;
+    
+}
+
+footer{
+    background-color: #c4c4c4;
+    height: 100px;
+    margin-top: 20px;
+    border: 1px solid black ;
+}
+
+.nav-footer ul{
+    list-style: none;
+    height: 100px;
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    justify-content: space-around;
+    align-items: center;
 }
