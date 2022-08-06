@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Waiting+for+the+Sunrise&family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito:wght@200&family=Waiting+for+the+Sunrise&family=WindSong&display=swap');
 
 
 *{
@@ -172,4 +174,27 @@ footer{
     margin-left: auto;
     justify-content: space-around;
     align-items: center;
+}
+
+#container-left-quemSomos{
+    width: 700px;
+}
+
+.banner{
+    background-color: rgb(179,255,249);
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+
+.text{
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+}
+
+#container-right-quemSomos{
+    background-color: #c4c4c4;
+    height: 200px;
 }
