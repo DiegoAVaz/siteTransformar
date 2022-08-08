@@ -40,6 +40,8 @@
     text-align: center;
     font-size: 40px;
     color: #6C4343;
+    width: 600px;
+    margin-left: 70px;
 }
 
 .transformar{
@@ -48,7 +50,7 @@
     font-size: 100px;
     height: 130px;
     color: #6C4343;
-    margin-top: -20px;
+    margin-top: -40px;
 }
 
 .container ul{
