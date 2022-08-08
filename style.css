@@ -55,7 +55,8 @@
     display: flex;
     list-style-type: none; 
     justify-content: space-around;
-    padding-left: 0px;  
+    padding-left: 0px;
+    color: #6C4343;
 }
 
 .container a{
@@ -177,7 +178,7 @@ footer{
 }
 
 #container-left-quemSomos{
-    width: 700px;
+    width: 60%;
 }
 
 .banner{
@@ -196,5 +197,6 @@ footer{
 
 #container-right-quemSomos{
     background-color: #c4c4c4;
-    height: 200px;
+    height: 600px;
+    width: 40%;
 }
