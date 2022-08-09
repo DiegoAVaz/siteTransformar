@@ -202,3 +202,25 @@ footer{
     height: 600px;
     width: 40%;
 }
+
+#noticias-destaque{
+    width: 60%;
+}
+
+#noticia-principal{
+    color: white;
+    width: 700px;
+    height: 300px;
+    background-image: url(/assets/img1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#tema-noticia-principal{
+    padding: 10px;
+}
+
+
+#titulo-subt-principal{
+    margin-left: 20px;
+}
